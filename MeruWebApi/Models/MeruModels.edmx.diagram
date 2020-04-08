@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4d4025959e7540c4a07d5d62b208f6af" Name="Diagram1">
+        <EntityTypeShape EntityType="MeruTestModel.Area" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MeruTestModel.City" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MeruTestModel.SubArea" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="MeruTestModel.FK_Area_City" ManuallyRouted="false" />
+        <AssociationConnector Association="MeruTestModel.FK_SubArea_Area" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MeruTestModel.Customer" Width="1.5" PointX="7.5" PointY="0.875" />
+        <AssociationConnector Association="MeruTestModel.FK_Customer_SubArea" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
