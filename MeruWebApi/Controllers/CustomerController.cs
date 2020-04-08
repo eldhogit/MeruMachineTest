@@ -20,6 +20,7 @@ namespace MeruWebApi.Controllers
         }
 
         [Route("GetCustomerByMobNo")]
+        [HttpGet]
         public IHttpActionResult GetCustomerByMobNo(string MobNo)
         {
             try
