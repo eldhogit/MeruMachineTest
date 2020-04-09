@@ -19,7 +19,7 @@ namespace MeruWebApi.Controllers
             db = new MeruDbContext();
         }
 
-        [Route("GetCustomerByMobNo")]
+        [Route("GetCustomerByMobNo/{MobNo}")]
         [HttpGet]
         public IHttpActionResult GetCustomerByMobNo(string MobNo)
         {
